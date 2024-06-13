@@ -23,18 +23,4 @@ body {
 }
 
 
-.image-left {
-  float:left;
-  width: 100px;
-  height: 100px;
-}
-.image-right {
-  float:right;
-  width: 100px;
-  height: 100px;
-}
 
-.socials {
-  width:25;
-  height:25px;
-}
