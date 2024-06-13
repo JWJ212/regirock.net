@@ -1,16 +1,1 @@
-body, html {
-  height: 100%;
-}
-
- {
-  /* The image used */
-  background-video: url("https://cdn.regirock.net/videos/background.gif");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+@import navbar.css
