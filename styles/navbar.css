@@ -19,6 +19,7 @@ li:last-child {
 }
 
 li a {
+  font-family: "Helvetica, sans-serif";
   display: block;
   color: #c9a0dc;
   text-align: center;

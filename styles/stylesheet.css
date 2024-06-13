@@ -11,6 +11,7 @@ body {
   margin-right: auto;
 }
 .textbox {
+  font-family: "Helvetica, sans-serif";
   width: 300px;
   height: 100px;
   color: #c9a0dc;
