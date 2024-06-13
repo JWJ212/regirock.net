@@ -1,6 +1,7 @@
 body {
-  background-image:url('https://regirock.net/media/videos/background.gif');
+  background-image:url('media/videos/background.gif');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
