@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-    <link rel="stylesheet" type="text/css" href="https://regirock.net/scriptsnsuch/styles/stylesheet.css"> 
-    <link rel"stylesheet" type="text/css" href="https://regirock.net/scriptsnsuch/styles/navbar.css"> 
-		<title>regirock.net</title>
-	</head>
-  <body>
-    <ul>
-      <li><a class="active" href="https://regirock.net/index.html">Home</a></li>
-      <li><a href="https://regirock.net/servers.html">Servers</a></li>
-      <li><a href="https://regirock.net/buttons.html">Buttons</a></li>
-    </ul>
-    <img src="https://cdn.regirock.net/imgs/regirock.jpg">
-    </body>
+<html>
+<head>
+<style>
+body {margin:0;}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
 </html>
+
+
+
