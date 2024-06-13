@@ -21,18 +21,15 @@ body {
   vertical-align: middle;
   text-align: center;
 }
-.container {
-  display: grid;
-  align-itmes: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5px;
-}
+
 
 .image-left {
+  float:left;
   width: 100px;
   height: 100px;
 }
 .image-right {
+  float:right;
   width: 100px;
   height: 100px;
 }
