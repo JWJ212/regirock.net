@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+    <script type="text/javascript" src="scripts/cry.js"></script>
     <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="/styles/navbar.css">
 		<title>regirock.net</title>
@@ -11,7 +12,11 @@
       <li><a href="https://regirock.net/servers.html">Servers</a></li>
       <li><a href="https://regirock.net/buttons.html">Buttons</a></li>
     </ul>
-    <img src="https://cdn.regirock.net/imgs/regirock.png" class="center">
+    <audio>
+      <source src="https://cdn.regirock.net/audio/regirock.mp3" type="audio/mpeg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+    <a href="javascript:playclip();"><img src="https://cdn.regirock.net/imgs/regirock.png" class="center">
     </body>
 
 </html>
