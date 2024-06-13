@@ -1,1 +1,7 @@
-@import navbar.css
+body {
+  background-image: url('https://cdn.regirock.net/videos/background.gif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
