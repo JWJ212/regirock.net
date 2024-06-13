@@ -11,7 +11,7 @@
 
 li {
   float: left;
-  border-right: 1px solid #9932cc;
+  border-right: 1px solid #663399;
 }
 
 li:last-child {
@@ -20,7 +20,7 @@ li:last-child {
 
 li a {
   display: block;
-  color: black;
+  color: purple;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
