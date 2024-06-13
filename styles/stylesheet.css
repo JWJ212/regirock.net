@@ -34,7 +34,10 @@ body {
   height: 100px;
 }
 
-.socials.img {
+.socials {
   width:100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
   height:100px;
 }
