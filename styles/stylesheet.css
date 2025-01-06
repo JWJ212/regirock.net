@@ -11,10 +11,10 @@
 
             :root {
                 --header-image: url('https://cdn.regirock.net/imgs/desert.png');
-                --body-bg-image: url('https://cdn.regirock.net/videos/pplstar.gif');
+                --body-bg-image: url('https://cdn.regirock.net/videos/purpdimond.gif');
 
                 /* colors */
-                --content: #43256E;
+                --content: #1e1e2e;
             }
 
             /* if you have the URL of a font, you can set it below */
@@ -70,10 +70,10 @@
             body {
                 font-family: 'Nunito', sans-serif;
                 margin: 0;
-                background-color: #08031A;
+                background-color: #11111b;
                 /* you can delete the line below if you'd prefer to not use an image */
                 background-size: 200px;
-                color: #fceaff;
+                color: #cdd6f4;
                 background-image: var(--body-bg-image);
             }
 
@@ -104,7 +104,7 @@
             /* the area below is for all links on your page
     EXCEPT for the navigation */
             #container a {
-                color: #ED64F5;
+                color: #cba6f7;
                 font-weight: bold;
                 /* if you want to remove the underline
       you can add a line below here that says:
@@ -113,7 +113,7 @@
 
             #header {
                 width: 100%;
-                background-color: #5e4e8c;
+                background-color: #11111b;
                 /* header color here! */
                 height: 150px;
                 /* this is only for a background image! */
@@ -126,7 +126,7 @@
             /* navigation section!! */
             #navbar {
                 height: 40px;
-                background-color: #13092D;
+                background-color: #45475a;
                 /* navbar color */
                 width: 100%;
             }
@@ -145,7 +145,7 @@
 
             /* navigation links*/
             #navbar li a {
-                color: #ED64F5;
+                color: #cba6f7;
                 /* navbar text color */
                 font-weight: 800;
                 text-decoration: none;
@@ -154,7 +154,7 @@
 
             /* navigation link when a link is hovered over */
             #navbar li a:hover {
-                color: #a49cba;
+                color: #b4befe;
                 text-decoration: underline;
             }
 
@@ -166,7 +166,7 @@
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
             aside {
-                background-color: #241445;
+                background-color: #181825;
                 width: 200px;
                 padding: 20px;
                 font-size: smaller;
@@ -177,7 +177,7 @@
             /* this is the color of the main content area,
     between the sidebars! */
             main {
-                background-color: #43256E;
+                background-color: #1e1e2e;
                 flex: 1;
                 padding: 20px;
                 order: 2;
@@ -198,7 +198,7 @@
             }
 
             footer {
-                background-color: #13092D;
+                background-color: #11111b;
                 /* background color for footer */
                 width: 100%;
                 height: 40px;
@@ -210,7 +210,7 @@
             h1,
             h2,
             h3 {
-                color: #ED64F5;
+                color: #cba6f7;
             }
 
             h1 {
@@ -219,13 +219,13 @@
 
             strong {
                 /* this styles bold text */
-                color: #ED64F5;
+                color: #cba6f7;
             }
 
             /* this is just a cool box, it's the darker colored one */
             .box {
-                background-color: #13092D;
-                border: 1px solid #ED64F5;
+                background-color: #11111b;
+                border: 1px solid #cba6f7;
                 padding: 10px;
             }
 
@@ -236,7 +236,7 @@
                 height: 30px;
                 padding: 10px;
                 font-size: smaller;
-                background-color: #13092D;
+                background-color: #11111b;
             }
 
 
